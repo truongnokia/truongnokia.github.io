@@ -1,0 +1,722 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.phone {
+    width: 350px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding-top: 20px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.loa {
+    width: 40%;
+    height: 1%;
+    /* background-color: rgb(77, 77, 77); */
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+#nokia {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-size: 19px;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mh {
+    width: 80%;
+    height: 32%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.mh .desktop {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(204, 204, 193);
+    border-radius: 10px;
+    display: none;
+}
+
+.mh #logoimg,
+#logovideo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.desktop .head {
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+
+.head .song {
+    width: 25%;
+    height: 100%;
+    float: left;
+    align-items: center;
+    margin-left: 4px;
+}
+
+#cot1,
+#cot2,
+#cot3,
+#cot4,
+#cot5 {
+    height: 80%;
+    width: 7%;
+    background-color: rgb(24, 23, 23);
+    display: inline-block;
+}
+
+#cot2,
+#cot3,
+#cot4,
+#cot5 {
+    margin-left: -2px;
+}
+
+#cot1 {
+    height: 30%;
+}
+
+#cot2 {
+    height: 45%;
+}
+
+#cot3 {
+    height: 55%;
+}
+
+#cot4 {
+    height: 65%;
+}
+
+.head .pin {
+    width: 25%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4px;
+}
+
+#pin1,
+#pin2,
+#pin3,
+#pin4,
+#pin5,
+#pin6 {
+    height: 60%;
+    width: 7%;
+    background-color: rgb(24, 23, 23);
+    display: inline-block;
+    margin-left: 2px;
+}
+
+#pin1 {
+    height: 27%;
+}
+
+.nhamang {
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+
+.nhamang h1 {
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.desktop .bottom {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.bottom #menulist {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.bottom #danhba {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+#menulist h1 {
+    text-align: start;
+    font-size: 27px;
+    height: 50%;
+    width: 100%;
+    margin-left: 5px;
+}
+
+#cam {
+    width: 100%;
+    height: 100%;
+}
+
+#danhba h1 {
+    margin-right: 5px;
+    text-align: end;
+    font-size: 27px;
+    height: 50%;
+    width: 100%;
+}
+
+.desktop .time {
+    height: 30%;
+    width: 100%;
+}
+
+.countdown {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banphim {
+    width: 80%;
+    height: 55%;
+    background-color: rgb(36, 36, 36);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+span {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.phimtren {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phimtren .left,
+.phimtren .right {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin: 2%;
+}
+
+.phimtren .center {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin: 2%;
+}
+
+.left #lefttop,
+#leftbot {
+    width: 100%;
+    height: 45%;
+    margin: 2.5% 0;
+}
+
+.left #leftbot {
+    color: white;
+    background-color: rgb(3, 102, 3);
+}
+
+#lefttop,
+#righttop {
+    /* background-color: rgb(119, 119, 119); */
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 20px;
+}
+
+.right #righttop,
+#rightbot {
+    width: 100%;
+    height: 45%;
+    margin: 2.5% 0;
+}
+
+.right #rightbot {
+    color: white;
+    background-color: rgb(231, 85, 40);
+}
+
+button {
+    outline: none;
+}
+
+.left button,
+.right button {
+    border-radius: 10px;
+}
+
+.centerall {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+#centertop {
+    width: 60%;
+    height: 24%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#centerbot {
+    width: 60%;
+    height: 24%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#centerleft {
+    width: 25%;
+    height: 45%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+
+#centerright {
+    width: 25%;
+    height: 45%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+}
+
+#centermid {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerall button {
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.imgbtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.phimso {
+    width: 100%;
+    height: 65%;
+    background-color: rgb(39, 38, 38);
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.phimso .phim {
+    margin: auto;
+    width: 100%;
+    height: 26%;
+}
+
+.phimso .phim button {
+    color: rgb(226, 225, 225);
+    background-color: rgb(24, 23, 23);
+    font-size: 30px;
+    width: 30%;
+    height: 85%;
+    border-radius: 10px;
+    margin-left: 5.2px;
+}
+
+#btn10 {
+    border-bottom-left-radius: 60px;
+}
+
+#btn11 {
+    border-bottom-right-radius: 60px;
+}
+
+.banphim,
+.phimso {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.phone {
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* menu */
+
+#menu {
+    background-color: rgb(204, 204, 193);
+}
+
+#titlelistitem {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#listitem div {
+    float: left;
+}
+
+#miditem,
+#leftitem,
+#rightitem {
+    position: relative;
+}
+
+#anhmid,
+#anhleft,
+#anhright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#botitemleft {
+    float: left;
+}
+
+#botitemright {
+    float: right;
+}
+
+#botitemleft,
+#botitemright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* danh ba */
+
+#phonebook {
+    background-color: rgb(204, 204, 193);
+}
+
+#titlelistphone {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#listphone a {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 5%;
+    width: 100%;
+    display: block;
+}
+
+
+/* calling */
+
+#titlecall {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#listphone {
+    position: relative;
+}
+
+#imgcall {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* nhat ki cuoc goi */
+
+#calllog {
+    background-color: rgb(204, 204, 193);
+}
+
+
+/* nhap so tu ban phim */
+
+#nhapvaoso {
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-align: end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* done */
+
+#titledone {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#listdone {
+    position: relative;
+}
+
+#imgdone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* note */
+
+#titlenote {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#listnote {
+    position: relative;
+}
+
+#imgnote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* chuc nang nghe nhac */
+
+#nghenhac {
+    height: 200px;
+    width: 300px;
+    background: rgb(204, 204, 193);
+    border-radius: 10px;
+    position: relative;
+}
+
+#volumeSlider {
+    border-radius: 50px;
+}
+
+#imgkoimlang {
+    margin-left: 5px;
+}
+
+#currentTime {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#duration {
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#controllers {
+    clear: both;
+    display: table;
+    margin: auto;
+}
+
+#controllers * {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+#volumeSlider {
+    margin-left: 5px;
+}
+
+#ctrl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#songTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nextSongTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=range] {
+    height: 26px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 14px;
+    cursor: pointer;
+    background: rgb(204, 204, 193);
+    border-radius: 14px;
+    border: 2px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: 2px solid #000000;
+    height: 14px;
+    width: 30px;
+    border-radius: 12px;
+    background: #000000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -2px;
+}
+
+#trove {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    text-align: right;
+    font-size: 20px;
+}
+
+
+/* chuc nang nhan tin */
+
+textarea {
+    resize: 0;
+    background: rgb(204, 204, 193);
+    resize: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+/* iframe */
+
+
+/* === game ran==  */
+
+canvas {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(204, 204, 193);
+    border-radius: 10px;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+#diemran {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
